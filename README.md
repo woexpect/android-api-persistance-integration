@@ -71,8 +71,7 @@ ORMLite documentation examples: http://ormlite.com/android/examples/
      
      }
   ```
-         
-  
+                              
 5) Add a method called _getTeams_ to the _RetrofitNetwork_ class  to retrieve the Teams list.
                
   ```java
@@ -95,3 +94,82 @@ ORMLite documentation examples: http://ormlite.com/android/examples/
   6) Verify that the method works as expected and that the teams are retrieved correctly (you can try using the debugger)
   
   7) Persist the teams objects into the database, then restart your application and make sure that teams are store correctly.
+  
+  
+  **Part 3: Display the teams using a RecyclerView.Adapter**
+  
+  
+  1) Create a class that extends the _RecyclerView.Adapter_. Inside this class create a _ViewHolder_ inner class with the corresponding element views that will represent a team (name, short name and image).
+  
+  2) Include the cardLayout and RecyclerView dependencies on your gradle file.
+       ```groovy
+           dependencies {
+                        compile 'com.android.support:cardview-v7:21.0.+'
+                        compile 'com.android.support:recyclerview-v7:21.0.+'
+                    }
+        ```
+  
+  3) Create an xml file that will represent the row of a team and make sure that this values are mapped on the ViewHolder class.
+  
+
+       <?xml version="1.0" encoding="utf-8"?>
+       <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                     xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                     xmlns:tools="http://schemas.android.com/tools"
+                     android:orientation="horizontal"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content">
+       
+         <android.support.v7.widget.CardView
+             android:id="@+id/card_view"
+             android:layout_gravity="center"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="4dp"
+             android:layout_marginLeft="8dp"
+             android:layout_marginStart="8dp"
+             android:layout_marginRight="8dp"
+             android:layout_marginEnd="8dp"
+             android:layout_marginTop="4dp"
+             card_view:cardCornerRadius="4dp">
+       
+           <LinearLayout
+               android:orientation="horizontal"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:padding="10dp">
+       
+             <ImageView
+                 android:id="@+id/logo"
+                 android:layout_width="50dp"
+                 android:layout_height="50dp"
+                 tools:src="@drawable/ic_launcher" />
+       
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical"
+                 android:layout_marginLeft="10dp"
+                 android:layout_marginStart="10dp">
+       
+               <TextView
+                   android:id="@+id/name"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   tools:text="Borrusia Dortmund"
+                   android:textColor="@android:color/black"
+                   android:textSize="16sp"
+                   android:textStyle="bold" />
+       
+               <TextView
+                   android:id="@+id/shortName"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   tools:text="Borrusia Dortmund"
+                   android:textColor="@android:color/black"
+                   android:textSize="14sp" />
+       
+             </LinearLayout>
+           </LinearLayout>
+         </android.support.v7.widget.CardView>
+       </LinearLayout>
