@@ -10,6 +10,7 @@ import com.j256.ormlite.support.ConnectionSource;
 import java.sql.SQLException;
 
 import co.edu.pdam.eci.persistenceapiintegration.data.dao.TeamDao;
+import co.edu.pdam.eci.persistenceapiintegration.data.dao.TeamOrmLiteDao;
 import co.edu.pdam.eci.persistenceapiintegration.data.entity.Team;
 
 /**
@@ -57,7 +58,7 @@ public class DatabaseHelper
         if ( teamDao == null )
         {
             Dao<Team, Long> dao = getDao( Team.class );
-//            teamDao = new TeamOrmLiteDao( dao );
+            teamDao = new TeamOrmLiteDao( dao );
         }
         return teamDao;
     }

@@ -12,8 +12,8 @@ public class TeamOrmLiteDao
     extends OrmLiteDao<Team, Long>
     implements TeamDao
 {
-    public TeamOrmLiteDao( Dao<Team, Long> dao, Class<Team> type )
+    public TeamOrmLiteDao( Dao<Team, Long> dao )
     {
-        super( dao, type );
+        super( dao, Team.class );
     }
 }
