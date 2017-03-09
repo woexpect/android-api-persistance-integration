@@ -6,6 +6,7 @@ import android.database.sqlite.SQLiteDatabase;
 import com.j256.ormlite.android.apptools.OrmLiteSqliteOpenHelper;
 import com.j256.ormlite.dao.Dao;
 import com.j256.ormlite.support.ConnectionSource;
+import com.j256.ormlite.table.TableUtils;
 
 import java.sql.SQLException;
 
@@ -42,7 +43,14 @@ public class DatabaseHelper
     public void onCreate( SQLiteDatabase sqLiteDatabase, ConnectionSource connectionSource )
     {
 
-        //TableUtils.createTableIfNotExists( connectionSource, DiaryEntry.class );
+        try
+        {
+            TableUtils.createTableIfNotExists( connectionSource, Team.class );
+        }
+        catch ( SQLException e )
+        {
+            throw new IllegalStateException( e.getMessage(), e );
+        }
     }
 
     @Override
