@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/estudiante/.android/build-cache/342f4fed0fac04c1f76fcd53373fd3c6e016c16d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/estudiante/AndroidStudioProjects/android-persistance-api-integration/app/build/intermediates/pre-dexed/debug/classes_e12e7f502016421b8284a164809ea67a91cec968.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/estudiante/.android/build-cache/b523053aae954aa5182a1bdeaeae171d190118bc/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="/Users/estudiante/AndroidStudioProjects/android-persistance-api-integration/app/build/intermediates/pre-dexed/debug/classes_b13085ae7e497b6fd3cbb136279a1b8cf3b30d38.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/estudiante/.android/build-cache/637c7a3235fc301014c0638189e93a9ec2efd6d5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/Users/estudiante/AndroidStudioProjects/android-persistance-api-integration/app/build/intermediates/pre-dexed/debug/classes_65dc47c966fd306b0d54753ea352e264615aee6b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/estudiante/.android/build-cache/68c4f3e3e0eebb3509be56ca36fd3bd9b2f47f66/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/Users/estudiante/AndroidStudioProjects/android-persistance-api-integration/app/build/intermediates/pre-dexed/debug/classes_64a63fbed2647893c6adff64b5f47d411fc62448.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/estudiante/.android/build-cache/bd0a3a9959484ef61cbf6f20dd1bd583c21f934b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/Users/estudiante/AndroidStudioProjects/android-persistance-api-integration/app/build/intermediates/pre-dexed/debug/classes_45d94ef0d63b5073c2c857b0b83c5b05ae1ba465.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/estudiante/.android/build-cache/30e1d0d240a2991a8f895240d61934861febdfbe/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="/Users/estudiante/AndroidStudioProjects/android-persistance-api-integration/app/build/intermediates/pre-dexed/debug/classes_645b755417488f1b2daad127ba7e76ffa90e7164.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/estudiante/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/Users/estudiante/AndroidStudioProjects/android-persistance-api-integration/app/build/intermediates/pre-dexed/debug/gson-2.7_8a79ede55ae5cdf27b2c1d3ca1676e1d4e2d5da5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/estudiante/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.2.0/41e67dba73c3347e4503761642c39d0e06ca1f2/retrofit-2.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="041e67dba73c3347e4503761642c39d0e06ca1f2">
+        <dex dex="/Users/estudiante/AndroidStudioProjects/android-persistance-api-integration/app/build/intermediates/pre-dexed/debug/retrofit-2.2.0_6b0e4d40a6057f263718d1c61a21c1953ad0bfc0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/estudiante/.android/build-cache/abdb436a22027e8bb0174153e2e32703de595361/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/Users/estudiante/AndroidStudioProjects/android-persistance-api-integration/app/build/intermediates/pre-dexed/debug/classes_6e5400d77d766e243eac91684346a5485a8d412c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/estudiante/.android/build-cache/6e9ba66df70df78b8ae3ac1dee31061eb26792d5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/Users/estudiante/AndroidStudioProjects/android-persistance-api-integration/app/build/intermediates/pre-dexed/debug/classes_36c17779b8f1d415631acb2f7b3012fd40c8de5a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/estudiante/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.11.0/840897fcd7223a8143f1d9b6f69714e7be34fd50/okio-1.11.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
+        <dex dex="/Users/estudiante/AndroidStudioProjects/android-persistance-api-integration/app/build/intermediates/pre-dexed/debug/okio-1.11.0_91e1dafd848235409770e1c1ad5dd40ff762ffd8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/estudiante/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="/Users/estudiante/AndroidStudioProjects/android-persistance-api-integration/app/build/intermediates/pre-dexed/debug/support-annotations-25.2.0_34ff9621a7360948493fbba1f27926bfc77ac417.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/estudiante/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/Users/estudiante/AndroidStudioProjects/android-persistance-api-integration/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_5a4cc91c881066d4074225ce7ef533aca2459a04.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/estudiante/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/estudiante/AndroidStudioProjects/android-persistance-api-integration/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_a1f08d7a24292d7b068bad0ac1434692cfe19221.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/estudiante/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.2.0/a09926806199499a20b2f5168779499abfa33342/converter-gson-2.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a09926806199499a20b2f5168779499abfa33342">
+        <dex dex="/Users/estudiante/AndroidStudioProjects/android-persistance-api-integration/app/build/intermediates/pre-dexed/debug/converter-gson-2.2.0_5454d921ca0e8f0aa424dfb541112af4e861bf9f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/estudiante/.android/build-cache/a57908f3f9840e2af0cc60886d20b8cd95217484/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="/Users/estudiante/AndroidStudioProjects/android-persistance-api-integration/app/build/intermediates/pre-dexed/debug/classes_0550cf7dbf5b4d9a34646146f7868a0b5aedb99b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/estudiante/.gradle/caches/modules-2/files-2.1/com.j256.ormlite/ormlite-android/5.0/1f065373aeef355dd9e2fd9854efd5ed4d54f6d/ormlite-android-5.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="01f065373aeef355dd9e2fd9854efd5ed4d54f6d">
+        <dex dex="/Users/estudiante/AndroidStudioProjects/android-persistance-api-integration/app/build/intermediates/pre-dexed/debug/ormlite-android-5.0_d8645cc441a30e804ea363658ca06d984f84673f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/estudiante/.gradle/caches/modules-2/files-2.1/com.j256.ormlite/ormlite-core/5.0/3382b8260646dd334a1b9c1b3d412fcb73d8b21/ormlite-core-5.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="03382b8260646dd334a1b9c1b3d412fcb73d8b21">
+        <dex dex="/Users/estudiante/AndroidStudioProjects/android-persistance-api-integration/app/build/intermediates/pre-dexed/debug/ormlite-core-5.0_64165b91a708ca61678d98c241f2c0c94859c660.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/estudiante/.android/build-cache/c74553672d9f0fb3ebf0aab1a358d9aa2cb861b4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/estudiante/AndroidStudioProjects/android-persistance-api-integration/app/build/intermediates/pre-dexed/debug/classes_bfb0e33aa5e5c2886e2f75bc81b447e7d44544d4.jar" />
+    </item>
+
+</items>
